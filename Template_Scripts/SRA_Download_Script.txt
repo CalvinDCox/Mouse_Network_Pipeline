@@ -1,0 +1,40 @@
+###******************************
+###Downloaded SRA files from NCBI (Downloaded to /feltus/calvinc/USCMouse1_58455/download directory)
+###******************************
+#!/bin/bash
+#PBS -N MDOWNLOAD
+#PBS -l select=1:ncpus=1:mem=8gb,walltime=168:00:00
+#PBS -j oe
+#PBS -q feltus
+
+cd $PBS_O_WORKDIR
+
+#Downloading files from ftp list
+
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391059/SRR1391059.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391058/SRR1391058.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391057/SRR1391057.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391056/SRR1391056.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391055/SRR1391055.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391054/SRR1391054.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391053/SRR1391053.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391052/SRR1391052.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391051/SRR1391051.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391050/SRR1391050.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391049/SRR1391049.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391048/SRR1391048.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391047/SRR1391047.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391046/SRR1391046.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391045/SRR1391045.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391044/SRR1391044.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391043/SRR1391043.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391042/SRR1391042.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391041/SRR1391041.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391040/SRR1391040.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391039/SRR1391039.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391038/SRR1391038.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391037/SRR1391037.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391036/SRR1391036.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391035/SRR1391035.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391034/SRR1391034.sra
+wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR139/SRR1391033/SRR1391033.sra
